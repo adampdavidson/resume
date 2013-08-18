@@ -1,0 +1,313 @@
+body {
+	background: url(squairy_light_@2X.png);
+	font-family: 'Droid Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* Structural Div Styling*/
+
+div.header_footer {
+	height: 60px;
+	width: 100%;
+	background-color: rgb(50, 50, 50);
+}
+
+#header {
+	position: fixed;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.9);
+}
+
+#footer {
+	clear: both;
+}
+
+#main_info {
+	height: 220px;
+	padding-top: 60px;
+	border-bottom: 2px solid #aaaaaa;
+	clear: both;
+} 
+
+.section { 
+	margin-top: -12px;
+	background-color: rgba(58, 144, 208, .5);
+	height: 50px;
+	clear: both;
+} /* Reusable div for section headers*/
+
+.full_column {
+	width: 33%;
+	margin-top: 10px;
+	float:left;
+	text-align: center;
+} 	/* styling for full length div - divided into 3 columns*/
+
+#profile_pic {
+	max-width: 400px;
+	max-height: 200px;
+	border: 4px solid rgba(50, 50, 50, .8);
+} /* image div styling*/
+
+.section_body {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	border-bottom: 2px solid #aaaaaa;
+	border-top: 2px solid #aaaaaa;
+} /*styling for full-length body sections*/
+
+#about_me {
+	height: 240px;
+} /*specify height for about_me*/
+
+#recommendations_body {
+	height: 360px;
+} /*specify height for recommendations*/
+
+.swimlane {
+	margin: auto;
+	height: 40px;
+	width:90%;
+	border: 1px solid rgba(50,50,50,.2);
+	background-color: rgba(100,100,100,.5);
+	border-radius: 4px;
+	clear: both;
+} /*Div styling for swimlane headers*/
+
+#skills {
+	margin-top: 5px;
+} /*add spacing below about me*/
+
+.agile_body {
+	margin: auto;
+	padding-left: 87px;
+	width: 90%;
+	text-align: center;
+} /*house columns*/
+
+.agile_column {
+	margin-right: 3px;
+	margin-left: 3px;
+	width: 30%;
+	float: left;
+	background-color: rgba(150,150,150, .3) 
+} /*columns themselves*/
+
+#last_agile_column {
+	margin-bottom: 10px;
+} /*spacing for last column group*/
+
+.list_containter {
+	width: 90%;
+	padding: 5px;
+	text-align: left;	
+} /* div style for lists in agile columns*/
+
+#footer_icon_div {
+	margin-right: 30px;
+	float: right;
+	height: 60px;
+	width: 300px;
+} /*house icons in the footer to add padding to only right side*/
+
+
+
+/*Icon styling*/
+.about_icon_bg {
+	text-align: center;
+	margin: auto;
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	background-color: rgba(0,0,0,.3);
+	border: 2px solid rgba(255, 255, 255, .7);
+	border-radius: 100%;
+} /*background for about me icons*/
+
+.about_icon {
+	width: 32px;
+	height: 32px;
+	padding: 5px;
+	text-align: center;
+	margin-top: 5px;
+} /*about me icons*/
+
+.reco_icon {
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	border-radius: 100%;
+	border: 4px solid rgba(50,50,50,.8);
+} /*recommendation pictures*/
+
+.category_icon_bg {
+	text-align: left;
+	float: left;
+	display: inline;
+	margin-left: 60px;
+	margin-top: 10px;
+	width: 30px;
+	height: 30px;
+	padding: 2px;
+	background-color: rgba(0,0,0,.3);
+	border-radius: 100%;
+} /*background for swimlane categories*/
+
+.category_icon {
+	padding: 2px;
+	height: 24px;
+	text-align: center;
+	margin-top: 1px;
+	margin-left: 1px;
+	width: 24px;
+} /*actual category icons*/
+
+img.footer_icon {
+	text-decoration: none;
+	display: inline;
+	float: right;
+	height: 40px;
+	width: 40px;
+	padding-left: 15px;
+	margin-top: 10px;
+} /*social icons in the footer*/
+
+
+/*link styling*/
+a.a_header {
+	text-decoration: none;
+	border-left: 1px solid rgba (0, 0, 0, .2);
+	border-right: 1px solid rgba(255,255,255,.1);
+	color: #ffffff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 0px 20px;
+	line-height: 60px;
+	text-transform: uppercase;
+} /* header link styling*/
+
+a.a_header:hover {
+	background-color: #222222;
+	text-decoration: none;
+	font-weight: normal;
+} /*header link hover*/
+
+a {
+	text-decoration: underline;
+	color: black;
+} /*email*/
+
+a:hover {
+	font-weight: bolder;
+} /*email hover*/
+
+a.icon {
+	text-decoration: none;
+} /*social icon links*/
+
+
+/*Text stylings*/
+
+.info_text {
+	font-variant: small-caps;
+	font-size: 30px;
+	font-weight: bolder;
+	color: #3a90ce;
+} /* Personal info Heading text styling*/
+
+.left {
+	padding: 8px 20px;
+	color: #323232;
+	font-size: 28px;
+} /* section text to be on the left*/
+
+.about_head {
+	color: #323232;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	font-weight: lighter;
+} /*header text for about me, recommendations*/
+
+.about_text {
+	color: #323232;
+	font-size: 15px;
+	font-weight: 0;
+	padding: 0px 18px;
+} /*body text for about me, recommendations*/
+
+.category_title {
+	float: left;
+	margin-top: -3px;
+	margin-bottom: 0px;
+	padding-left: 10px;
+	font-size: 20px;
+	color: #323232;
+	font-variant: small-caps;
+	font-weight: bold;
+} /*agile column category titles*/
+
+.subtitle {
+	display: inline-block;
+	width: 80%;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: -40px;
+	margin-bottom: -10px;
+	font-variant: small-caps;
+	color: rgba(58, 144, 208, 1);
+	font-size: 18px;
+} /*category subtitle in agile columns*/
+
+span {
+	font-style: italic;
+	font-size: 12px;
+} /* date for subtitle*/
+
+.swimlane_text {
+	text-align: center;
+	color: #323232;
+	margin: 6px;
+} /*body text in swimlane columns*/
+
+#footer_text {
+	margin-top: 15px;
+	margin-left: 30px;
+	font-size: 20px;
+	color: #edecec;
+	font-family: 'Merienda', sans-serif;
+	float: left;
+}
+
+/*list styling*/
+
+ul.header_list {
+	list-style: none;
+	margin: 0px;
+} /*header list of navigation links*/
+
+li.li_header {
+	float: right;
+} /* place all but home right*/
+
+li.li_header_home {
+	float: left;
+} /*places home left*/
+
+ul.list {
+	margin-top: 5px;
+	display: inline-block;
+	padding-right: 20px;
+	list-style: circle;
+	color: #323232;
+	text-align: left;
+} /*column lists*/
+
+li {
+	margin-bottom: 10px;
+} /*spacing between list items*/
+
+
+
+
+
